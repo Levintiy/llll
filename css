@@ -1,0 +1,80 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    border: 5px solid;
+    border-image: linear-gradient(20deg, #D3D3D3 38%, #808080 65%);
+    border-image-slice: 1;
+    position: absolute;
+    top: 150px;
+    left: 265px;
+    padding: 30px 70px 30px 70px;
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
+    border-radius: 2%;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.tablitsa{
+    margin: 10px;
+    display: flex;
+}
+
+.tablitssa{
+    margin: 23px;
+    display: flex;
+}
+
+div a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(201, 123, 54, 0.918);
+    margin: 10px;
+}
+
+div img{
+    box-shadow: 10px -5px 15px 0 rgba(102, 187, 187, 0.918);
+    border: 6px ridge SeaGreen;
+}
+
+p {
+    text-shadow: 10px -5px 11px rgba(102, 187, 187, 0.918);
+}
+
+div img:hover{
+    box-shadow: 12px -5px 8px 0 rgba(43, 117, 117, 0.979);
+    transition: 2s ease-out;
+}
+
+p:hover {
+    text-shadow: 12px -5px 4px rgba(43, 117, 117, 0.979);
+    transition: 1s ease-out;
+}
+
+a p{
+    margin: 0px;
+}
+
+.up{
+    position: fixed;
+    left: 90%;
+    top: 71%;
+    border-radius: 50%;
+}
+
+.down{
+    position: fixed;
+    left: 90%;
+    top: 85%;
+    border-radius: 50%;
+}
